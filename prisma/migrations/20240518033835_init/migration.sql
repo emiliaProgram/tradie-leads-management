@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "Lead" (
+    "leadId" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "category" TEXT NOT NULL,
+    "price" REAL NOT NULL,
+    "status" TEXT,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
